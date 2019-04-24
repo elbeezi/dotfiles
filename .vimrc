@@ -1,6 +1,7 @@
 set number
 set showmode
 set visualbell
+set t_vb=
 
 syntax on
 
