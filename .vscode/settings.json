@@ -1,5 +1,5 @@
 {
-    "workbench.iconTheme": "vscode-icons", // NOTE: requires `vscode-icons` plugin
+    "workbench.iconTheme": "vscode-icons",
     "workbench.startupEditor": "newUntitledFile",
     "window.zoomLevel": 1,
     "search.exclude": {
@@ -8,5 +8,6 @@
     "editor.renderWhitespace": "boundary",
     "editor.formatOnSave": true,
     "vsicons.dontShowNewVersionMessage": true,
-    "eslint.autoFixOnSave": true // NOTE: requires `vscode-eslint` plugin
+    "eslint.autoFixOnSave": true,
+    "editor.scrollBeyondLastLine": false
 }
