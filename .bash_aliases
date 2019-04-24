@@ -18,7 +18,7 @@
  alias gstl="git stash --list"
  alias gstc="git stash --clear"
  alias ga="git add"
- alias gca="git commit --add"
+ alias gca="git commit -a"
  alias grbi="git rebase --interactive"
  alias grbc="git rebase --continue"
  alias grba="git rebase --abort"
