@@ -1,0 +1,12 @@
+{
+    "workbench.iconTheme": "vscode-icons", // NOTE: requires `vscode-icons` plugin
+    "workbench.startupEditor": "newUntitledFile",
+    "window.zoomLevel": 1,
+    "search.exclude": {
+        "**/package-lock.json": true
+    },
+    "editor.renderWhitespace": "boundary",
+    "editor.formatOnSave": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "eslint.autoFixOnSave": true // NOTE: requires `vscode-eslint` plugin
+}
