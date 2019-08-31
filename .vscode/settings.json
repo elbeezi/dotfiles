@@ -10,5 +10,9 @@
     "editor.formatOnSave": true,
     "vsicons.dontShowNewVersionMessage": true,
     "eslint.autoFixOnSave": true,
-    "editor.scrollBeyondLastLine": false
+    "editor.scrollBeyondLastLine": false,
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "es5",
+    "prettier.arrowParens": "always"
 }
