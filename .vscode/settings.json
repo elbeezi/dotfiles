@@ -1,7 +1,7 @@
 {
     "workbench.iconTheme": "vscode-icons",
     "workbench.startupEditor": "newUntitledFile",
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 1.5,
     "telemetry.enableTelemetry": false,
     "search.exclude": {
         "**/package-lock.json": true
