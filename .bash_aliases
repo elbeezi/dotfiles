@@ -3,32 +3,54 @@
 ### Universal
 alias ll="ls -al"
 alias ..='cd ..'
-alias ...='cd ../../../'
-alias ....='cd ../../../../'
-alias .....='cd ../../../../'
 
 ### Git
-alias gfa="git fetch --all --prune"
-alias gl="git pull"
-alias gp="git push"
-alias glgg="git log --graph"
-alias gst="git status"
-alias gd="git diff"
-alias gsta="git stash"
-alias gstp="git stash pop"
-alias gstl="git stash list"
-alias gstc="git stash clear"
-alias ga="git add"
+
+#### git-branch
+alias gb="git branch"
+alias gbd="git branch --delete"
+alias gbD="git branch --delete --force"
+
+#### git-checkout
+alias gcb="git checkout -b"
+alias gcm="git checkout master"
+alias gco="git checkout"
+
+#### git-commit
 alias gc="git commit"
-alias gca="git commit -a"
-alias gcp="git cherry-pick"
+alias gca="git commit --all"
+alias gcae="git commit --all --amend"
+alias gcnm="git commit --no-verify --message"
+alias gcnma="git commit --all --no-verify --message"
+
+#### git-log
+alias glgg="git log --graph"
+alias glgga="git log --graph --decorate --all"
+
+#### git-push
+alias gp="git push"
+alias gpo="git push origin"
+alias gpuh="git push --set-upstream origin head"
+
+#### git-rebase
 alias grb="git rebase"
 alias grbi="git rebase --interactive"
 alias grbc="git rebase --continue"
 alias grba="git rebase --abort"
-alias gb="git branch"
-alias gbd="git branch --delete"
-alias gco="git checkout"
-alias gcb="git checkout -b"
-alias gcm="git checkout master"
-alias gpo="git push origin"
+
+#### git-stash
+alias gsta="git stash"
+alias gstc="git stash clear"
+alias gstl="git stash list"
+alias gstp="git stash pop"
+
+#### (misc)
+alias ga="git add"
+alias gcp="git cherry-pick"
+alias gd="git diff"
+alias gfa="git fetch --all --prune"
+alias gl="git pull"
+alias grh="git reset head"
+alias grH="git reset HEAD~"
+alias gst="git status"
+
